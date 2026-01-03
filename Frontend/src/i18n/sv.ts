@@ -7,14 +7,15 @@ export const sv = {
   },
 
   hero: {
-    badge: "Frontend • Fullstack • Praktik på DIF.se",
+    badge: "Frontend & Fullstack Developer • Open for freelance",
     hello: "Hej! Jag är",
-    path: "frontend- och fullstackutvecklare som gör min praktik på",
-    emphasis: "DIF.se",
+    path: "jag hjälper startups och företag att bygga",
+    emphasis: "snabba, konverterande webbappar ",
     description:
-      "Just nu gör jag min praktik hos DIF.se där jag arbetar med att utveckla och förbättra biljettsystem, interna verktyg och sportrelaterade webbtjänster. Jag bygger moderna gränssnitt med React, TypeScript och Tailwind, och utvecklar även fullstack-lösningar med Node.js, Express och MongoDB.",
+      "Jag bygger moderna, responsiva webbappar med React, Next.js TypeScript och Node.js — från landningssidor till fullstack-lösningar. Just nu gör jag min LIA hos DIF.se, där jag arbetar med användarflöden. Jag fokuserar på tydlig UI, stabil logik och lösningar som faktiskt konverterar.",
     viewProjects: "Visa mina projekt",
     contactMe: "Kontakta mig",
+    clickToReadMore: "Klicka för att läsa mer om mig",
   },
 
   projects: {
@@ -26,19 +27,24 @@ export const sv = {
     error: "Något gick fel när projekten skulle hämtas.",
   },
 
-  about: {
-    title: "Om mig",
-   p1: "Jag har en internationell kandidatexamen i datavetenskap som ger mig en stark teknisk grund inom programmering, algoritmer och systemutveckling. I Sverige har jag fördjupat mig i modern webbutveckling med fokus på frontend och fullstack.",
-    p2: "Just nu gör jag min praktik på DIF.se där jag arbetar med biljettsystem, interna dashboards och användarcentrerade webbtjänster. Mitt arbete inkluderar både frontend (React, TypeScript, Tailwind) och backend (Node.js, Express, MongoDB) samt integration av API:er.",
-    p3: "Mitt mål är att bli en komplett utvecklare som kan bygga både snygga, responsiva gränssnitt och robust backendlogik — en hybridutvecklare som förstår hela kedjan från design till databas.",
-  },
+ about: {
+  title: "Om mig",
+  p1: "Jag är en frontend- och fullstackutvecklare som hjälper startups och företag att bygga moderna, snabba och användarvänliga webbapplikationer – från landningssidor till mer avancerade fullstack-lösningar.",
+  p2: "Just nu gör jag min LIA hos DIF.se, där jag arbetar med produktionsnära system som biljettsystem, användarflöden och UI-komponenter. Fokus ligger på tydlig struktur, bra användarupplevelse och lösningar som faktiskt fungerar i verkligheten.",
+  p3: "Jag har även en tidigare kandidatexamen i datavetenskap, vilket ger mig en stabil teknisk grund inom programmering, systemtänk och problemlösning. Det hjälper mig att bygga lösningar som inte bara ser bra ut – utan också är hållbara och skalbara.",
+  p4: "Mitt mål är att arbeta som en hybrid mellan frontend- och fullstackutvecklare, där jag kombinerar teknik, användarupplevelse och affärstänk för att skapa produkter som skapar värde."
+},
 
-  contact: {
-    title: "Kontakt",
-    intro:
-      "Vill du prata om frilansuppdrag, samarbeten eller framtida anställningar? Jag är öppen för frontend-, backend- och fullstackprojekt.",
-    emailLabel: "Mail",
-    linkedinLabel: "LinkedIn-profil",
-    // instagramLabel: "Instagram (portfolio)",
-  },
+ contact: {
+  title: "Kontakt",
+  intro:
+    "Jag hjälper startups och små företag att bygga snabba, responsiva webbappar – från landningssidor till fullstack-portaler. Behöver du en utvecklare som levererar rent UI och stabil logik? Hör av dig.",
+  emailLabel: "Mail",
+  linkedinLabel: "LinkedIn",
+  instagramLabel: "Instagram (portfolio)",
+
+  // NEW (om du vill)
+  servicesTitle: "Tjänster",
+}
+
 };

@@ -1,39 +1,17 @@
 import type { Project } from "../types";
 
 export const projectsEn: Project[] = [
+ 
   // -----------------------------
-  // DIF Ticketing (optional)
-  // -----------------------------
-  // Uncomment when ready to show
-  
-  {
-    id: "dif-ticketing",
-    title: "DIF Ticketing System (Internship Project)",
-    description:
-      "A modern ticketing flow for selecting matches, seats and completing purchases – optimized for clarity, mobile usability and conversion.",
-    longDescription:
-      "During my internship at DIF.se, I worked on a ticketing system where users can browse available games, choose ticket types and complete purchases. The focus was on building a clean UI, responsive components, improved user flow and a frictionless checkout experience. The work included React components, form logic, REST API integration, state management and accessibility improvements.",
-    tech: ["React", "TypeScript", "Tailwind", "REST API"],
-    highlight: true,
-    role: "Frontend Developer (Internship)",
-    period: "Spring 2025",
-    client: "DIF.se",
-    lia: true,
-    image: "/images/projects/dif-ticketing.png"
-    
-  },
-  
-
-  // -----------------------------
-  // StayEasy
+  // Vintage-Resorts
   // -----------------------------
   {
-    id: "stayeasy",
-    title: "StayEasy – Fullstack Airbnb-Inspired App",
+    id: "Vintage-Resorts",
+    title: "Vintage-Resorts – Fullstack Airbnb-Inspired App",
     description:
       "A fullstack web application inspired by Airbnb, built with React, TypeScript, Node.js, Express and MongoDB. Users can search listings, book stays and manage their own properties.",
     longDescription:
-      "StayEasy is a fullstack web application inspired by Airbnb. The frontend is built with React, TypeScript, Vite and Tailwind, including a search flow (location, dates, guests), results page with filtering, property detail page, booking flow with validation, login/registration, user bookings overview and an admin panel for creating, updating and deleting listings. The backend is built with Node.js, Express and TypeScript using MongoDB (Mongoose). It features JWT-based authentication, data validation, error handling and a structured REST API connecting the client and server. The project strengthened my skills in fullstack development, API architecture, data modeling and frontend–backend integration.",
+      "Vintage-Resorts is a fullstack web application inspired by Airbnb. The frontend is built with React, TypeScript, Vite and Tailwind, including a search flow (location, dates, guests), results page with filtering, property detail page, booking flow with validation, login/registration, user bookings overview and an admin panel for creating, updating and deleting listings. The backend is built with Node.js, Express and TypeScript using MongoDB (Mongoose). It features JWT-based authentication, data validation, error handling and a structured REST API connecting the client and server. The project strengthened my skills in fullstack development, API architecture, data modeling and frontend–backend integration.",
     tech: [
       "React",
       "TypeScript",
@@ -46,19 +24,14 @@ export const projectsEn: Project[] = [
       "JWT",
     ],
     github: "https://github.com/Solane-Hebo/Vintage-Resorts.git",
+    link: "https://airbnb-vintage-resorts.vercel.app/",
     // highlight: true,
     role: "Fullstack Developer",
     period: "Oct–Nov 2025",
-    client: "KYH (school project)",
+    client: "KYH",
     // lia: false,
     image: "/images/projects/Vintage Resort.png",
-    images: [
-    "/images/projects/Vintage Resort.png",
-    "/images/projects/Vintage Resort.png",
-    "/images/projects/Vintage Resort.png",
-  ],
   },
-
 
 
   {
@@ -79,9 +52,13 @@ export const projectsEn: Project[] = [
   github: "https://github.com/Solane-Hebo/typeScript-vite-react.git",
   role: "Frontend Developer",
   period: "Aug–Sep 2025",
-  client: "School project / Personal extension",
+  client: "School project",
   lia: false,
   image: "/images/projects/Forum2.png",
+    images: [
+      "/images/projects/Forum1.png",
+      "/images/projects/Forum1.png",
+  ],
 },
 
 {
@@ -110,7 +87,7 @@ export const projectsEn: Project[] = [
 
 {
   id: "task-portal",
-  title: "Company Task Management Portal – Next.js 15, Auth & Firebase",
+  title: "Company Task Management Portal – Next.js 15 and Firebase Auth",
   description:
     "A full-stack task management portal where companies assign tasks, users see only their own tasks, and admins manage everything through a dashboard.",
   longDescription:
@@ -119,8 +96,7 @@ export const projectsEn: Project[] = [
     "Next.js 15",
     "React",
     "TypeScript",
-    "Firebase",
-    "Auth",
+    "Firebase Auth",
     "Tailwind",
     "Realtime Updates",
     "Unit Testing"
@@ -164,6 +140,27 @@ export const projectsEn: Project[] = [
   // highlight: true,
   image: "/images/projects/E-commerce.png"
 },
+
+ // -----------------------------
+  // DIF Ticketing (optional)
+  // -----------------------------
+  // Uncomment when ready to show
+  
+  {
+  id: "dif",
+  title: "DIF",
+  description:
+    "Flows with focus on usability, mobile experience and conversion.",
+  longDescription:
+    "During my internship at DIF.se, I contribute to production-level frontend development and user flows and sports-related experiences. Due to confidentiality, visuals are illustrative, but the work includes component-driven UI, responsive layouts and collaboration in a real production environment.",
+  tech: ["React", "TypeScript", "Tailwind", "REST API"],
+  highlight: true,
+  role: "Frontend Developer (Internship)",
+  period: "Spring 2025",
+  client: "DIF.se",
+  lia: true,
+  image: "/images/projects/image0.jpeg",
+}
 
 
 

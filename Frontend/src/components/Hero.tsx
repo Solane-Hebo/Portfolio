@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useTranslation } from "../hooks/useTranslation";
 
 export const Hero: React.FC = () => {
@@ -51,21 +52,70 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Höger: bildkort */}
-      <div className="mt-8 flex-1 md:mt-0 hero-fade-up">
-        <div
-          className="
-            hero-float
-            mx-auto h-48 w-48 rounded-3xl border
-            border-slate-300 bg-gradient-to-tr from-sky-100 via-slate-200 to-fuchsia-200 shadow-md
-            dark:border-slate-800 dark:bg-gradient-to-tr dark:from-sky-500/30 dark:via-slate-900 dark:to-fuchsia-500/30 dark:shadow-xl
-            md:h-56 md:w-56
-          "
-        />
+    {/* Höger: bild + social */}
+<div className="flex flex-col items-center hero-fade-up">
+  {/* Klickbar profilbild */}
+  <a
+    href="#about"
+    aria-label="Go to about section"
+    className="relative hero-float mx-auto h-48 w-48 md:h-56 md:w-56 group"
+  >
+    <div className="absolute inset-0 rounded-3xl bg-sky-400/20 blur-xl transition-opacity group-hover:opacity-80 dark:bg-sky-500/20" />
 
-        <p className="mt-4 text-center text-xs text-slate-600 dark:text-slate-400">
-          Snart: profilbild, kort fakta och länkar.
-        </p>
-      </div>
-    </section>
+    <img
+      src="/images/projects/profile pic.png"
+      alt="Solane Hebo"
+      onError={(e) => {
+        (e.currentTarget as HTMLImageElement).src =
+          "/images/profile-placeholder.png";
+      }}
+      className="
+        relative h-full w-full object-cover rounded-3xl border 
+        border-slate-300 bg-white shadow-lg transition
+        group-hover:scale-[1.02]
+        dark:border-slate-800
+      "
+    />
+  </a>
+
+ <p className="mt-3 text-center text-xs text-slate-600 dark:text-slate-400">
+  {t.hero.clickToReadMore}
+</p>
+      {/* Sociala länkar */}
+ <div className="mt-3 flex items-center gap-4">
+  <a
+    href="https://www.linkedin.com/in/solane-hebo-056543244/"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="LinkedIn"
+    className="
+      flex h-9 w-9 items-center justify-center rounded-full
+      border border-slate-300 text-slate-600 transition
+      hover:border-sky-500 hover:text-sky-600 hover:bg-sky-50
+      dark:border-slate-700 dark:text-slate-400
+      dark:hover:border-sky-400 dark:hover:text-sky-400 dark:hover:bg-sky-500/10
+    "
+  >
+    <FaLinkedin className="text-lg" />
+  </a>
+
+  <a
+    href="https://github.com/Solane-Hebo"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="GitHub"
+    className="
+      flex h-9 w-9 items-center justify-center rounded-full
+      border border-slate-300 text-slate-600 transition
+      hover:border-slate-900 hover:text-slate-900 hover:bg-slate-100
+      dark:border-slate-700 dark:text-slate-400
+      dark:hover:border-slate-300 dark:hover:text-white dark:hover:bg-slate-800
+    "
+  >
+    <FaGithub className="text-lg" />
+  </a>
+</div>
+ </div>
+</section>
   );
 };

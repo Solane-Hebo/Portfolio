@@ -7,14 +7,15 @@ export const en = {
   },
 
   hero: {
-    badge: "Frontend • Fullstack • Internship at DIF.se",
+    badge: "Frontend & Fullstack Developer • Open for freelance",
     hello: "Hi! I'm",
-    path: "a frontend and fullstack developer currently doing my internship at",
-    emphasis: "DIF.se",
+    path: "I help startups and businesses build",
+    emphasis: "fast, conversion-focused web apps",
     description:
-      "I'm currently completing my internship at DIF.se, where I work on developing and improving ticketing systems, internal tools and sports-related web services. I build modern, responsive interfaces with React, TypeScript and Tailwind, and I also work with fullstack development using Node.js, Express and MongoDB.",
+      "I build modern, responsive web applications using React, Next.js TypeScript and Node.js — from landing pages to fullstack solutions. I'm currently doing my internship at DIF.se, working on production-level systems like user experiences. I focus on clean UI, solid logic and solutions that actually convert.",
     viewProjects: "View my projects",
     contactMe: "Contact me",
+    clickToReadMore: "Click to learn more about me",
   },
 
   projects: {
@@ -27,18 +28,24 @@ export const en = {
   },
 
   about: {
-    title: "About me",
-    p1: "I hold an international bachelor's degree in Computer Science, which gives me a strong technical foundation in programming, algorithms and system development. In Sweden, I have focused on modern web development with a specialization in both frontend and fullstack.",
-    p2: "I'm currently doing my internship at DIF.se, where I work on ticketing systems, internal dashboards and user-centric web services. My work includes frontend development with React, TypeScript and Tailwind, as well as backend development with Node.js, Express, MongoDB and API integration.",
-    p3: "My goal is to become a well-rounded developer who can build both beautiful, responsive interfaces and robust backend logic — someone who understands the entire process from UI design to database architecture.",
-  },
+  title: "About me",
+  p1: "I'm a frontend and fullstack developer who helps startups and businesses build modern, fast and user-friendly web applications — from landing pages to more advanced fullstack solutions.",
+  p2: "I'm currently doing my internship at DIF.se, where I work with production-level systems such as ticketing flows, user journeys and reusable UI components. My focus is on clean structure, great user experience and solutions that work in real-world environments.",
+  p3: "I also hold a Bachelor's degree in Computer Science, which gives me a strong technical foundation in programming, system thinking and problem-solving. This allows me to build solutions that are not only visually polished, but also scalable and maintainable.",
+  p4: "My goal is to work as a hybrid frontend and fullstack developer, combining technology, user experience and business understanding to create products that deliver real value."
+},
 
   contact: {
-    title: "Contact",
-    intro:
-      "Want to talk about freelance work, collaborations or future opportunities? I'm open to frontend, backend and fullstack projects.",
-    emailLabel: "Email",
-    linkedinLabel: "LinkedIn profile",
+  title: "Contact",
+  intro:
+    "I help startups and small businesses build fast, responsive web apps — from landing pages to fullstack portals. If you need a developer who delivers clean UI and solid logic, let's talk.",
+  emailLabel: "Email",
+  linkedinLabel: "LinkedIn",
+  instagramLabel: "Instagram (portfolio)",
+
+  // NEW (optional)
+  servicesTitle: "Services",
+}
+
     // instagramLabel: "Instagram (portfolio)",
-  },
 };
