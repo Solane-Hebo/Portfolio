@@ -1,23 +1,10 @@
 import type { Project } from "../types";
 
 export const projects: Project[] = [
-  {
-    id: "dif-ticketing",
-    title: "Biljettsystem för DIF (LIA-projekt)",
-    description:
-      "Modernt flöde för att välja matcher, platser och köpa biljetter – med fokus på tydlighet, mobilanpassning och konvertering.",
-    longDescription:
-      "Under min LIA på DIF.se har jag arbetat med ett biljettsystem där användaren kan välja matcher, biljettyper och genomföra köp. Fokus har legat på tydlig struktur, mobilanpassning, rena komponenter och att göra flödet så friktionsfritt som möjligt.",
-    tech: ["React", "TypeScript", "Tailwind", "REST API"],
-    highlight: true,
-    role: "Frontendutvecklare (LIA)",
-    period: "Vår 2025",
-    client: "DIF.se",
-    lia: true,
-  },
+ 
   {
     id: "stayeasy",
-    title: "StayEasy – Fullstack Airbnb-inspirerad app",
+    title: "Vintage Resorts– Fullstack Airbnb-inspirerad app",
     description:
       "Fullstack webbapplikation inspirerad av Airbnb, byggd med React, TypeScript, Node.js, Express och MongoDB. Användare kan söka boenden, boka och hantera sina listningar.",
     longDescription:
@@ -142,5 +129,21 @@ export const projects: Project[] = [
   // highlight: true,
   image: "/images/projects/E-commerce.png"
 },
+
+ {
+    id: "dif-ticketing",
+    title: "Biljettsystem för DIF (LIA-projekt)",
+    description:
+      "Modernt flöde för att välja matcher, platser och köpa biljetter – med fokus på tydlighet, mobilanpassning och konvertering.",
+    longDescription:
+      "Under min LIA på DIF.se har jag arbetat med ett biljettsystem där användaren kan välja matcher, biljettyper och genomföra köp. Fokus har legat på tydlig struktur, mobilanpassning, rena komponenter och att göra flödet så friktionsfritt som möjligt.",
+    tech: ["React", "TypeScript", "Tailwind", "REST API"],
+    highlight: true,
+    role: "Frontendutvecklare (LIA)",
+    period: "Vår 2025",
+    client: "DIF.se",
+    lia: true,
+    image: "/images/projects/image0.jpeg",
+  },
 
 ];
